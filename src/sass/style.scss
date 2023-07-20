@@ -2,7 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Winston', 'Vasek', sans-serif;
+    font-style: normal;
+    color: #363636;
+    background-color: #F9F7F8;
+}
+
+:root {
+    --black: #240532;
+    --gray: #665070;
+    --gray-light: #918299;
+    --white: #FFF;
+    --gray-fill: #F9F7F8;
+    --bright-fill: #D6FF3F;
 }
 
 

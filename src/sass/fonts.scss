@@ -1,53 +1,59 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Thin.eot');
-    src: url('../fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Thin.woff') format('woff'),
-    url('../fonts/Roboto-Thin.ttf') format('truetype');
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Light.eot');
-    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Light.woff') format('woff'),
-    url('../fonts/Roboto-Light.ttf') format('truetype');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/oboto-Regular.eot');
-    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Regular.woff') format('woff'),
-    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-family: 'Winston';
+    src: url('../fonts/Winston-Regular.eot') format('embedded-opentype'),
+    url('../fonts/Winston-Regular.ttf') format('truetype');
+    src: url('../fonts/Winston-Regular.woff') format('woff');
+    font-style: normal;
     font-weight: 400;
-}
+    font-display: swap;
+    }    
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Medium.eot');
-    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Medium.woff') format('woff'),
-    url('../fonts/Roboto-Medium.ttf') format('truetype');
+    @font-face {
+    font-family: 'Winston';
+    src: url('../fonts/Winston-Medium.ttf') format('truetype'), 
+    url('../fonts/Winston-Medium.eot') format('embedded-opentype'),
+    url('../fonts/Winston-Medium.woff') format('woff');
+    font-style: normal;
     font-weight: 500;
-}
+    font-display: swap;
+    }
+    
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.eot');
-    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Roboto-Bold.woff') format('woff'),
-    url('../fonts/Roboto-Bold.ttf') format('truetype');
+    @font-face {
+    font-family: 'Winston';
+    src: url('../fonts/Winston-SemiBold.ttf') format('truetype'),
+    url('../fonts/Winston-SemiBold.eot') format('embedded-opentype'),
+    url('../fonts/Winston-SemiBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    }
+    
+
+    @font-face {
+    font-family: 'Winston';
+    src: url('../fonts/Winston-Bold.ttf') format('truetype'),
+    url('../fonts/Winston-Bold.eot') format('embedded-opentype'),
+    url('../fonts/Winston-Bold.woff') format('woff');
+    font-style: normal;
     font-weight: 700;
-}
+    font-display: swap;
+    }
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Black.eot');
-    src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Roboto-Black.woff') format('woff'),
-    url('../fonts/Roboto-Black.ttf') format('truetype');
-    font-weight: 900;
-}
+    @font-face {
+        font-family: 'Vasek';
+        src: url('../fonts/VasekItalic.ttf') format('truetype'); 
+        src: url('../fonts/VasekItalic.ttf') format('truetype');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Vasek';
+        src: url('../fonts/Vasek-Italic.woff2') format('woff2');
+        src: url('../fonts/Vasek-Italic.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    
