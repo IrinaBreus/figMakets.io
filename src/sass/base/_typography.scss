@@ -6,7 +6,7 @@
     text-transform: uppercase;
 }
 .title-2 {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 40px;
     font-weight: 600;
     line-height: 110%; /* 44px */
@@ -24,12 +24,17 @@
     font-weight: 700;
     line-height: 120%; /* 30px */
 }
-.subtitile-2 {
+.subtitle-2 {
     font-family: 'Vasek';
     font-size: 46px;
     font-style: italic;
     font-weight: 400;
     text-transform: lowercase;
+    span {
+        font-family: 'Vasek';
+        font-size: 30px;
+        margin-right: 3px;
+    }
 }
 
 .numbers {
@@ -40,7 +45,7 @@
     line-height: 110%; /* 70.4px */
 }
 .stroke-text {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +54,7 @@
 }
 
 .text-1 {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -57,7 +62,7 @@
 }
 
 .text-2 {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -65,7 +70,7 @@
 }
 
 .text-3 {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -73,7 +78,7 @@
 }
 
 .text-4 {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +86,7 @@
 }
 
 .btn-txt {
-    font-family: Winston;
+    font-family: 'Winston';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -89,10 +94,17 @@
 }
 
 .italick {
-    font-family: Vasek;
+    font-family: 'Vasek';
     font-size: 34px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+}
+.form-txt {
+    font-family: 'Winston';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137%; /* 21.92px */
 }

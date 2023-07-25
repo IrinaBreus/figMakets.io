@@ -1,13 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Winston', 'Vasek', sans-serif;
     font-style: normal;
-    color: #363636;
+    color: var(--black);
     background-color: #F9F7F8;
 }
-
 :root {
     --black: #240532;
     --gray: #665070;
@@ -16,6 +16,7 @@
     --gray-fill: #F9F7F8;
     --bright-fill: #D6FF3F;
 }
+
 
 
 @import 'base/*.scss';
