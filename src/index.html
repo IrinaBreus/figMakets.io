@@ -44,10 +44,13 @@
                     <li><a href="#" class="text-3">Контакты</a></li>
                 </ul>
                 <a href="#" class="nav__tg">@figmamakets</a>
+                <button class="nav__open">
+                    <span></span>
+                </button>
             </nav>
             <div class="promo">
                 <div class="promo__header">
-                    <h1 class="title promo__title">СБОРНИК <span>ЛУЧШИХ</span> <br> МАКЕТОВ FIGMA</h1>
+                    <h1 class="title promo__title">СБОРНИК <span>ЛУЧШИХ</span> МАКЕТОВ FIGMA</h1>
                     <div class="promo__video">
                         <button class="promo__btn-play">
                             <img src="icons/play.svg" alt="play">
@@ -86,7 +89,11 @@
                     </div>
                 </div>
                 <div class="promo__img">
-                    <img src="img/header.jpg" class="promo__bg" alt="abstract">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="img/header_mini.jpg" alt="abstract">
+                        <source media="(min-width: 768px)" srcset="img/header.jpg" alt="abstract">
+                        <img src="img/header.jpg" class="promo__bg" alt="abstract">
+                    </picture>
                     <div class="promo__btn-tg">
                         <a href="#">
                             <svg class="promo__tg promo__tg-2">

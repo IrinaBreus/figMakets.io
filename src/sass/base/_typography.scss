@@ -34,6 +34,9 @@
         font-family: 'Vasek';
         font-size: 30px;
         margin-right: 3px;
+        position: absolute;
+        top: 10px;
+        left: 20px;
     }
 }
 
@@ -109,11 +112,64 @@
     line-height: 137%; /* 21.92px */
 }
 
+@media (max-width: 1600px) {
+    .title {
+        font-size: 84px;
+    }
+}
+@media (max-width: 1200px) {
+    .title {
+        line-height: 90px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 62px;
+        line-height: normal;
+    }
+    .subtitle-2 {
+        font-size: 36px;
+        span {
+            font-size: 20px;
+        }
+    }
+}
+
 @media (max-width: 768px) {
+    .title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .subtitle-2 {
+        font-size: 36px;
+        span {
+            font-size: 20px;
+        }
+    }
     .stroke-text {
         font-size: 26px;
+    }
+    .text-1 {
+        font-size: 14px;
     }
 }
 
 @media (max-width: 576px) {
+    .title {
+        font-size: 29px;
+        line-height: normal;
+    }
+    .subtitle-2 {
+        font-size: 36px;
+        span {
+            font-size: 20px;
+        }
+    }
+    .stroke-text {
+        font-size: 26px;
+    }
+    .text-1 {
+        font-size: 14px;
+    }
 }
